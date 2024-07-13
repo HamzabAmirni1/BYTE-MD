@@ -9,17 +9,17 @@ global.appUrl = process.env.APP_URL || "";
 global.email = "TalkDrove@gmail.com";
 global.location = "Lahore,Pakistan.";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Hamza:3800380ww@cluster0.uwommwq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-global.allowJids = process.env.ALLOW_JID || "923072380380@s.whatsapp.net";
+global.allowJids = process.env.ALLOW_JID || "212624855939@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github = process.env.GITHUB || "https://github.com/HyHamza/BYTE-MD";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Va5mXGNLdQeXkib1M82X";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029Va5mXGNLdQeXkib1M82X";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/logo.jpg";
 global.devs = "923072380380";
-global.sudo = process.env.SUDO || "923072380380";
-global.owner = process.env.OWNER_NUMBER || "923072380380";
+global.sudo = process.env.SUDO || "212624855939";
+global.owner = process.env.OWNER_NUMBER || "212624855939";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -42,7 +42,7 @@ global.scan = "https://byte-session.vercel.app/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "Your session ID" //Make sure session id starts with Byte;;;
+  "{"noiseKey":{"private":{"type":"Buffer","data":"ULerTgVc4OBOJQbbPro+mklQlj+RwoWKHNYZDWgkxXk="},"public":{"type":"Buffer","data":"cDde23WaZq6PVa8e5cmjSEd2PSsdXSLZyPR8OqKlBDw="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"eNvaa9usyjwAlLUaVB+8VRjev7WoPTSeZMWK2I8jD24="},"public":{"type":"Buffer","data":"yHhtQSVioH+qiaomNQi/P2eN3+D/f0YlEeAvaQhVVDs="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"mJp7Gq+oGgonat35tBshHXYJ+hBYPGDmpl0WFaPGC08="},"public":{"type":"Buffer","data":"orXdU99NeDkUAuRJ7A9KYJK3mPjSF0ogNpHUg5LwdV8="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"IKp/nZ75I7uHTUrI4K+etVBoDHcrfNh6qf4JyJjWYEs="},"public":{"type":"Buffer","data":"RZQ/z7ZKbnwmfcITKejp7naOMl40h5XLD393MUnMXHY="}},"signature":{"type":"Buffer","data":"qKltTtMdCr8Z8/mXIXA3sR7EBzixx2/Fbsb4afvj2lKm9yCFvxpnAZSEcO/FeIfFYMzyfj0Ss3Iu3eVfd0KaDQ=="},"keyId":1},"registrationId":88,"advSecretKey":"oguZvGQxRQrqpCffHQgrN0Q5cPx+FokknOlm9FEZznI=","processedHistoryMessages":[{"key":{"remoteJid":"212624855939@s.whatsapp.net","fromMe":true,"id":"AA59A4E1530C469498A66270DABEFF99"},"messageTimestamp":1720042631}],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"hl2xsk-oSxqjl8XHtw_jfw","phoneId":"b0278864-5845-4fdb-830c-e814a70a87f4","identityId":{"type":"Buffer","data":"qebSg9DJjycAi5mwpAVaOMYWr04="},"registered":true,"backupToken":{"type":"Buffer","data":"gH3YA3ONlo+JgBSh9ls1MwnLj2U="},"registration":{},"pairingCode":"1QBFYJZQ","me":{"id":"212624855939:15@s.whatsapp.net","name":"hamzaamirni"},"account":{"details":"CJeysOIEEPeIl7QGGAMgACgA","accountSignatureKey":"5iX865h+IM1Hnw2TlMvBA49xc3YLTcZvtsJtbmk4/R4=","accountSignature":"f1ONAkxiVulY11s4f/Fz7mRSKbfi7HUDoXnjpaE/jsGMr3SXr6ieOdZLLWGxU4mFtkCK66ncok7qeTg1xW0RBg==","deviceSignature":"jTqdBLW6K04YpYR/jzwDsjiKR+pIU/bh7/RCYCysrKy7GN0Ak3V7B5sjRdw8cb9IEofAWJ00jP02Bhyhp5FWBw=="},"signalIdentities":[{"identifier":{"name":"212624855939:15@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BeYl/OuYfiDNR58Nk5TLwQOPcXN2C03Gb7bCbW5pOP0e"}}],"platform":"smba","lastAccountSyncTimestamp":1720042621,"myAppStateKeyId":"AAAAAJZw"}" //Make sure session id starts with Byte;;;
 module.exports = {
   menu: process.env.MENU || "",
   HANDLERS: process.env.PREFIX || ",",
